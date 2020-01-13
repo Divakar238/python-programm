@@ -1,0 +1,11 @@
+a=int(input("enter the number"))
+b=a
+sum=0
+while(a):
+    n=a%10
+    sum+=n**3
+    a=a//10
+if(sum==b):
+    print("the number is amnstrong")
+else:
+    print1("number is not amnostrong")
