@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	
+	a{ color:white;
+		text-decoration: none;
+	}
+	
 
-You can use the [editor on GitHub](https://github.com/Divakar238/python-programm/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+	body{
+		  background-image:url(http://www.thehumanchain.com/wp-content/uploads/2015/11/cloud.png);
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		background-color: red;
+		margin-left: 250px;
+		margin-top: 20px;
+	}
+	#container ul{
+		list-style: none;
+	}
+	#container ul li{
+       background-color: powderblue;
+       width:200px;
+       border:1px solid white;
+       border-radius:26px;
+       height:50px;
+       line-height: 50px;
+       text-align: center;
+       float:left;
+       color: white;
+       font-size: 19px;
+       position: relative;
+	}
+	#container ul li:hover{
+		background-color: purple;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	}
+	#container ul ul{
+		display: none;
+	}	
+	#container ul li:hover>ul{
+		display: block;
+	}
+	#container ul ul ul{
+             margin-left:200px;
+             top:0px;
+             position: absolute;
+	}
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Divakar238/python-programm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</style>
+	<title>amar serivces</title>
+</head>
+<body>
+<div id="container">
+<ul>
+	<li><a href="#home"></a> home</li>
+	<li>services
+		<ul>
+			<li>appliances & electronics repair 
+				<ul>
+					<li>geyser service and repair</li>
+					<li>microwaverepair</li>
+					<li>washing machine services and repair</li>
+					<li>refrigerator repair</li>
+					<li>ac service and repair</li>
+					<li>ro or water purifier repair</li>
+					<li>tv repair and installation</li>
+					<li>mixer and grinder repair</li>
+					<li>chimney cleaning & repair</li>
+				</ul></li>
+			<li>plumber
+				<ul>
+					<li>basin & sink</li>
+					<li>bath fitting</li>
+					<li>blockage</li>
+					<li>tap & mixer</li>
+					<li>toilet</li>
+					<li>water tank</li>
+					<li>motor</li>
+					<li>minor installtion</li>
+				</ul></li>
+			<li>cooler reparing</li>
+			<li>carpentery</li>
+			<li>flooring</li>
+			<li>web design</li>
+		</ul></li>
+	<li>blog</li>
+	<li>about</li>
+	<li><a href="#work">want to work </a></li>
+</ul>
+</div>
+<form id="work" >
+	<div>
+	<input type="text" name="front name" >
+	<input type="text" name="last name" >
+	<input type="number" name="age" >
+	<input type="occuption" name="occuption" >
+	<input type="location" name="location" >
+   </div>
+</form>
+</body>
+</html>
